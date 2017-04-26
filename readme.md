@@ -26,7 +26,7 @@ The preferred IDE for writing html, css, and Javascript is [Atom](www.atom.io).
  * [JQuery and manipulating the DOM](https://www.youtube.com/watch?v=0m5ytkr25ug) This tutorial requires basic understanding of Javascript and the [JQuery](https://jquery.com/) library.
 
 #### Good Reads
-  * [Confluence JS](http://confluence/pages/viewpage.action?title=UI-210%3A+Javascript+Basics&spaceKey=entarch)
+  * [EBSCO Confluence JS](http://confluence/pages/viewpage.action?title=UI-210%3A+Javascript+Basics&spaceKey=entarch)
   * ['You don't know JS' - Series](https://github.com/getify/You-Dont-Know-JS)
   * [Codementor JS Cheatsheet](https://www.codementor.io/johnnyb/javascript-cheatsheet-fb54lz08k)
 
