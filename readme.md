@@ -4,9 +4,14 @@ This is a brief tutorial for HTML and CSS. It only covers the basics for what ou
 
 The preferred IDE for writing html, css, and Javascript is [Atom](www.atom.io).
 
+https://www.codecademy.com
+
+HTML/CSS full text books available on ebscohost:
+http://web.b.ebscohost.com/ehost/results?vid=9&sid=24ea5174-5856-4de6-86c3-f213ed8800c5%40sessionmgr104&bquery=html&bdata=JmRiPWUyMzB4d3cmZGI9ZTIyMHh3dyZkYj1ubGViayZkYj1lMjUweHd3JmRsaTA9TkwmZGx2MD1ZJmRsZDA9bmxlYmsmdHlwZT0wJnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d
+
 ### HTML Resources
 #### Videos
-* [HTML in 15 minures](https://www.youtube.com/watch?v=Ggh_y-33Eso)
+* [HTML in 15 minutes](https://www.youtube.com/watch?v=Ggh_y-33Eso)
 
 #### Good Reads
 * [W3Schools - HTML5](http://www.w3schools.com/html/html5_intro.asp)
@@ -15,7 +20,7 @@ The preferred IDE for writing html, css, and Javascript is [Atom](www.atom.io).
 
 ### CSS Resources
 #### Videos
- * [CSS in 15 minures](https://www.youtube.com/watch?v=eukjOYgHsHk&t=185s)
+ * [CSS in 15 minutes](https://www.youtube.com/watch?v=eukjOYgHsHk&t=185s)
 
 #### Good Reads
   * [Webplatform tutorial](https://www.webplatform.org/docs/css/tutorials/)

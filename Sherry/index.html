@@ -1,0 +1,96 @@
+<html xmlns=”http://www.w3.org/1999/xhtml” xml:lang=”en” lang=”en”>
+
+<head>
+
+  <meta http-equiv=”Content-Type” content=”text/html;charset=ISO-8859-1″ />
+  <meta name=”description” content=”EBSCO Health Manage Profile” />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="manageprofilestyles.css">
+
+  <title>EBSCO Health Manage Profile</title>
+</head>
+
+<body>
+  <div class="w3-cell-row" id="top-toolbar">
+    <div class="w3-cell">
+      <h1>EBSCO Health</h1>
+    </div>
+    <div class="w3-cell">
+      <div class="w3-dropdown-click" id="account">
+        <button onclick="myFunction()" class="w3-button" id="your-account">Sheryl Blackstone</button>
+        <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
+          <a href="#" class="w3-bar-item w3-button">Go to DynaMed Plus</a>
+          <a href="#" class="w3-bar-item w3-button">Help</a>
+          <a href="#" class="w3-bar-item w3-button">Support</a>
+          <a href="#" class="w3-bar-item w3-button">Sign out</a>
+        </div>
+      </div>
+
+      <script>
+      function myFunction() {
+          var x = document.getElementById("Demo");
+          if (x.className.indexOf("w3-show") == -1)
+              x.className += " w3-show";
+          else
+              x.className = x.className.replace(" w3-show", "");
+          }
+      }
+      </script>
+
+    </div>
+  </div>
+
+  <div />
+
+  <div>
+    <h2  id="your=account-label">Your Account</h2>
+  </div>
+
+  <div class="w3-container">
+  <div class="w3-bar" id="navtab">
+    <button class="w3-bar-item w3-button" onclick="#">Manage Profile</button>
+    <button class="w3-bar-item w3-button" onclick="#">Manage Subscriptions</button>
+  </div>
+
+  <div />
+  <div />
+
+  <script>
+  /* function open(tab) {
+      var i;
+      var x = document.getElementsByClassName("manage-tab");
+      for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+      }
+      document.getElementById(tab).style.display = "block";
+  } */
+  </script>
+
+  <div class="w3-container" id="Profile" class="manage-tab">
+    <p/>
+    <p/>
+    <div class="w3-display-container" id="Name">
+      <div class="w3-display-left">Name</div>
+      <div class="w3-display-right">
+        <i class="fa fa-pencil"></i>
+        <span>Edit</span>
+      </div>
+    </div>
+    <p/>
+    <p/>
+    <div class="w3=container" id="account-name"><p>Sheryl Blackstone</p></div>
+
+  </div>
+
+  <div id="Subscriptions" class="manage-tab" style="display:none">
+    <p/>
+  </div>
+</div>
+
+
+</body>
+
+</html>
