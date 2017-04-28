@@ -1,153 +1,104 @@
-body {
-  font-family: sans-serif;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.navbar {
-  overflow: hidden;
-  background-color: white;
-  margin-left: 20px;
+.body-wrapper {
+    width: 100vw;
+    height: 100vh;
 }
 
-.navbar button {
-  float: left;
-  display: block;
-  color: #black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: bold;
-  background-color: #dddddd;
-  border-color: white;
+.wrapper-body {
+    padding-top: 2%;
 }
 
-.navbar button.active {
-    background-color: white;
+.wrapper-body,
+.wrapper-header {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: block;
 }
 
-a {
-  text-decoration: none;
+/*          #####################   wrapper header    ######################*/
+
+.wrapper-header{
+    background-color: #017691;
+    height: 5%;
 }
 
-#header {
-  /*float: left;*/
-  background-color: #017691;
-  color: white;
-  padding 20px;
-}
-
-#maintitle {
-  margin-left: 20px;
-  color: #017691;
-  float: none;
-}
-
-#container {
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  width: 800px;
-}
-
-#tabcontent {
-  margin-top:20px;
-  margin-left: 40px;
-  background-color: white;
-  width:600px;
-}
-
-hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.title {
-  float: left;
-  font-size: 20;
-  font-weight: bold;
-  color: #000000;
-}
-
-.title.notleft {
-  float: none;
-  font-size: 20;
-  font-weight: bold;
-  color: #000000;
-}
-
-.value {
-  margin-top: 10px;
-  font-size: 20;
-  color: #989798;
-}
-
-#edit {
-  margin-left: 400px;
-  font-size: 20;
-  font-weight: bold;
-  color: #017791;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  margin-left: 100px;
-  font-size: 20;
-}
-
-.right.valid {
-  color: #1ea063;
-}
-
-
-/* Dropdown Button */
-.menubtn {
-    background-color:#017691;
+.nav-logo {
     color: white;
-    /*padding: 16px;*/
-    font-size: inherit;
-    border: none;
-    cursor: pointer;
+    font-family: 'arial';
+    font-size: 1.25vmin;
+    float: left;
+    padding-top: 1%;
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  background-color:#017691;
-    position:relative;
+.nav-account {
+    color: white;
+    font-family: 'arial';
+    float: right;
+    padding-top: 1%;
+}
+
+/*          #####################   wrapper Body    ######################*/
+
+.body-header {
+    font-size: 1.25vmin;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.body-body {
+    display: block;
+}
+
+.body-nav{
+    height: 4vh;
+    margin-left: 2%;
+}
+
+.body-nav ul li{
+    list-style: none;
     display: inline-block;
-    margin-left: 600px;
-    float:none;
+    padding-right: 5%;
+    padding-top: 1%;
+    border-top:    1px solid gray;
+    border-right:  1px solid gray;
+    border-left: 1px solid gray;
+    padding-left: 5px;
 }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color:white;
-    min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+.body-content{
+    margin-top: 3.5vh;
     display: block;
+    /*background-color: #c8c8c8;*/
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+.content-tab {
+    padding: 5px;
     display: block;
+    width: 100%;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: #dddddd;
+.tab-left,
+.tab-edit{
+    display: inline-block;
+}
+
+
+.tab-edit {
+    float: right;
+}
+
+.content-header{
+    font-weight: 600;
+}
+
+.content-body{
+    color: gray;
+}
+
+.content-header:{
+    color: green;
 }

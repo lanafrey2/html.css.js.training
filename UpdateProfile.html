@@ -1,68 +1,58 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Update Profile</title>
-<link rel="stylesheet" type="text/css" href="styles.css" />
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mock</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
+  <div class="body-wrapper">
+    <div class="wrapper-header">
+      <div class="nav-logo">
+        <h1>Ebsco <span>Health</span></h1>
+      </div>
+      <div class="nav-account">
+        <h6>Elijah Gould</h6>
+      </div>
+    </div>
 
-<body>
-<div id="container">
-  <div id="header"><h1>EBSCO Health</h1>
-    <div class="dropdown">
-      <button class="menubtn">Elijah Gould ></button>
-      <div class="dropdown-content">
-        <a href="#">Go to DynaMed Plus</a>
-        <a href="#">Help</a>
-        <a href="#">Support</a>
-        <a href="#">Sign Out</a>
+    <div class="wrapper-body">
+      <div class="body-header">
+        <h1>Your Account</h1>
+      </div>
+      <div class="body-body">
+        <div class="body-nav">
+          <ul>
+            <li>Manage Profile</li>
+            <li>Manage Subscriptions</li>
+          </ul>
+        </div>
+        <div class="body-content">
+          <div class="content-tab">
+            <div class="tab-left">
+              <div class="content-header">Name</div>
+
+              <div class="content-body"><small>Elija Sulivan</small></div>
+            </div>
+            <div class="tab-edit">
+              Edit
+            </div>
+          </div>
+          <div class="content-tab">
+            <div class="tab-left">
+              <div class="content-header" onclick="myFunction(event)">Email</div>
+
+              <div class="content-body"><small>email@email.com</small></div>
+            </div>
+            <div class="tab-edit">
+              Edit
+            </div>
+            <input type="text" readonly value="password">
+          </div>
       </div>
     </div>
   </div>
-
-  <div id="maintitle"><h1>Your Account</h1>
-  </div>
-  <div class="navbar">
-    <button class="active" href="#profiles">Manage Profile</button>
-    <button href="#subscriptions">Manage Subscriptions</button>
-  </div>
-
-
-  <div id="tabcontent">
-    <div id="name">
-      <div class="title">Name </div> <a id="edit" href="#"><i class="fa fa-edit"></i>&nbsp; Edit</a>
-      <div class="value">Elijah Gould</div>
-    </div>
-    <hr />
-    <div id="email">
-      <div class="title">Email Address </div> <a id="edit" href="#"><i class="fa fa-edit"></i>&nbsp; Edit</a>
-      <div class="value">EmailAddress@mail.com</div>
-    </div>
-    <hr/>
-    <div id="password">
-      <div class="title">Password </div> <a id="edit" href="#"><i class="fa fa-edit"></i>&nbsp; Edit</a>
-      <div class="value">*******</input></div>
-    </div>
-    <hr/>
-    <div id="info">
-      <div class="title">Personal Information </div> <a id="edit" href="#"><i class="fa fa-edit"></i>&nbsp; Edit</a>
-      <div class="value">Role: Designer, Specialty: User Experience, Org: EBSCO</div>
-    </div>
-    <hr/>
-    <div id="affiliations">
-      <div class="title notleft">DynaMed access via: </div>
-      <div class="value">
-        <span class="left">Portsmouth General Hospital</span>
-        <span class="right valid">Valid through: 4/20/2018</span>
-      </div>
-      <div class="value">
-        <span class="left">Mass General Hospital</span>
-        <span class="right">Expired: 1/10/2015</span>
-      </div>
-    </div>
-  </div>
-</div>
 </body>
-
 </html>

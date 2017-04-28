@@ -6,8 +6,7 @@ The preferred IDE for writing html, css, and Javascript is [Atom](www.atom.io).
 
 https://www.codecademy.com
 
-HTML/CSS full text books available on ebscohost:
-http://web.b.ebscohost.com/ehost/results?vid=9&sid=24ea5174-5856-4de6-86c3-f213ed8800c5%40sessionmgr104&bquery=html&bdata=JmRiPWUyMzB4d3cmZGI9ZTIyMHh3dyZkYj1ubGViayZkYj1lMjUweHd3JmRsaTA9TkwmZGx2MD1ZJmRsZDA9bmxlYmsmdHlwZT0wJnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d
+HTML/CSS full text books available on [ebscohost](http://web.b.ebscohost.com/ehost/results?vid=9&sid=24ea5174-5856-4de6-86c3-f213ed8800c5%40sessionmgr104&bquery=html&bdata=JmRiPWUyMzB4d3cmZGI9ZTIyMHh3dyZkYj1ubGViayZkYj1lMjUweHd3JmRsaTA9TkwmZGx2MD1ZJmRsZDA9bmxlYmsmdHlwZT0wJnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d)
 
 ### HTML Resources
 #### Videos
