@@ -27,7 +27,10 @@ HTML/CSS full text books available on [ebscohost](http://web.b.ebscohost.com/eho
 
 ### Javascript Resources
 #### Videos
+ * [JS DOM Manipulation](https://www.youtube.com/watch?v=SCYUzGJ0EmY)
+ * [JS DOM Traversal](https://www.youtube.com/watch?v=rBjvPNE2or0)
  * [JQuery and manipulating the DOM](https://www.youtube.com/watch?v=0m5ytkr25ug) This tutorial requires basic understanding of Javascript and the [JQuery](https://jquery.com/) library.
+ * [JQuery DOM Tab tutorial](https://www.youtube.com/watch?v=kjL_HM08CcA)
 
 #### Good Reads
   * [EBSCO Confluence JS](http://confluence/pages/viewpage.action?title=UI-210%3A+Javascript+Basics&spaceKey=entarch)
